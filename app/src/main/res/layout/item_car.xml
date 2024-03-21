@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageCar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/car_icon"/>
+
+    <TextView
+        android:id="@+id/textCarName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageCar"
+        android:layout_marginLeft="16dp"
+        android:text="Tên xe"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textCarPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageCar"
+        android:layout_below="@id/textCarName"
+        android:layout_marginLeft="16dp"
+        android:text="Giá: $100,000"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/textCarStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageCar"
+        android:layout_below="@id/textCarPrice"
+        android:layout_marginLeft="16dp"
+        android:text="Trạng thái: còn xe"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"/>
+
+</RelativeLayout>
