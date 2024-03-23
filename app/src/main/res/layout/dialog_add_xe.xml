@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Thêm xe"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nhập tên"
+        android:minHeight="48dp"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/edNamSX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập năm sản xuất"
+        android:minHeight="48dp"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/edHang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập hãng"
+        android:minHeight="48dp"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/edGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập Giá"
+        android:minHeight="48dp"
+        android:layout_marginBottom="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chọn Ảnh:"
+            android:textSize="20dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <ImageView
+            android:id="@+id/imgchonanh"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/car_icon"/>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:background="@drawable/custombtn"
+        android:id="@+id/btnthem"
+        />
+
+</LinearLayout>
